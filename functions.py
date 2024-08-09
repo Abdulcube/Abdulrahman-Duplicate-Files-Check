@@ -10,15 +10,13 @@ def get_user_input():
 
         if len(user_input) == 0:
             print('\nError: Directory path must be longer than 0 characters.')
-            print('Please edit input and try again!')
         elif not os.path.exists(user_input):
             print('\nError: Directory path does not exist.')
-            print('Please edit input and try again!')
         elif not os.path.isdir(user_input):
             print('\nError: Path leads to file, not a directory.')
-            print('Please edit input and try again!')
         else:
             break
+        print('Please edit input and try again!')
         user_input = input('\nPlease give directory path: ')
     print('Input accepted!\n')
     return user_input
