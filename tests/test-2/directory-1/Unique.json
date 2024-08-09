@@ -1,0 +1,29 @@
+{
+    "Jedi": [
+      {
+        "Name": "Yoda",
+        "Rank": "Jedi Grand Master"
+      },
+      
+      {
+        "Name": "Obi-Wan Kenobi",
+        "Rank": "Jedi Master"
+      },
+      {
+        "Name": "Anakin Skywalker",
+        "Rank": "Jedi Knight"
+      },
+      {
+        "Name": "Ahsoka Tano",
+        "Rank": "Padawan"
+      },
+      {
+        "Name": "Mace Windu",
+        "Rank": "Jedi Master"
+      },
+      {
+        "Name": "Luke Skywalker",
+        "Rank": "Jedi Knight"
+      }
+    ]
+  }
