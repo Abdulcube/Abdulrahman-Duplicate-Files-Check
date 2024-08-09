@@ -75,4 +75,5 @@ Due to time constraints, two unit tests were included in the tests.py file. To r
  - Better test case coverage, I was only able to make unit tests for the traversal feature, and some situations were not covered in time
  - Hashing the file values. The Python hash function does cause some data loss so I was afraid the content of the files would be lost, python does have better hashing functions but with my limited time, full comparisons would be something that the program would store. Fundamentally increasing space and time complexity.
  - os.path tends to provide differing formats on different os testing that functionality is important for next steps.
+ - Certain file types are not readable depending on content, I would love to be able to explore that more!
  - A UI would be nice, interacting with the console causes difficulty when it comes to testing compared to a native UI. I approached the problem from a UI pov, how would our user want the program to interact.
